@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Marka": "Mercedes",
+    "Model": "Benz",
+    "Year": 2022
+  },
+  {
+    "Id": 2,
+    "Marka": "BMW",
+    "Model": "XS",
+    "Year": 2020
+  },
+  {
+    "Id": 3,
+    "Marka": "Tayota",
+    "Model": "Camry",
+    "Year": 2021
+  },
+  {
+    "Id": 4,
+    "Marka": "Nissan",
+    "Model": "Murano",
+    "Year": 2019
+  },
+  {
+    "Id": 5,
+    "Marka": "Ford",
+    "Model": "Mustang",
+    "Year": 2023
+  }
+]
