@@ -33,6 +33,9 @@ while (true)
 
         switch (command.HttpMethod.ToUpper())
         {
+            case "HELP":
+                bw.Write("\n\nGET -> get all cars\nGET {Id} -> get car by id\nPOST {Id, Marka, Model, Year} -> post car \nPUT Id {Marka, Model, Year} \nDELETE Id");
+                break;
             case "GET":
                 StringBuilder sendingMessage = new();
                 foreach (var item in cars)
@@ -40,6 +43,7 @@ while (true)
                 bw.Write(sendingMessage.ToString());
                 break;
             case "POST":
+
             case "PUT":
             case "DELETE":
             default:
