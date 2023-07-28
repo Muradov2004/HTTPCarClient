@@ -15,8 +15,10 @@ var answer = string.Empty;
 while (true)
 {
     command = Console.ReadLine();
-    bw.Write(command);
+    bw.Write(command!);
     answer = br.ReadString();
     Console.WriteLine(answer);
+    Console.ReadLine();
     Console.Clear();
+
 }
