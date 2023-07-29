@@ -17,7 +17,9 @@ while (true)
     command = Console.ReadLine();
     bw.Write(command!);
     answer = br.ReadString();
+    Console.WriteLine("\n---------------------\n");
     Console.WriteLine(answer);
+    Console.WriteLine("\n---------------------\n");
     Console.ReadLine();
     Console.Clear();
 
