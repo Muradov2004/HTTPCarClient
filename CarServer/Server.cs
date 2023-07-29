@@ -34,7 +34,7 @@ while (true)
         switch (command.HttpMethod.ToUpper())
         {
             case "HELP":
-                bw.Write("\n\nGET -> get all cars\nGET {Id} -> get car by id\nPOST {Id, Marka, Model, Year} -> post car \nPUT Id {Marka, Model, Year} \nDELETE Id");
+                bw.Write("\n\nGET -> get all cars\nGET {Id} -> get car by id\nPOST {Id, Marka, Model, Year} -> add car \nPUT Id {Marka, Model, Year} -> update car\nDELETE Id -> delete car by id");
                 break;
             case "GET":
                 StringBuilder sendingMessage = new();
